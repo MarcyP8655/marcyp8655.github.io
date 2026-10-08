@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Affordable, fast-selling Amazon finds, refreshed every other day.">
+<title>Marcy's Finds</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: a shop window — hero stamp, filter rail, a grid of hang-tag cards, then live best-seller shelves. */
+:root {
+  --bg: #f5f7f6;
+  --surface: #ffffff;
+  --ink: #14302b;
+  --muted: #5a6f6a;
+  --line: #d9e2df;
+  --accent: #e8590c;
+  --accent-ink: #ffffff;
+  --tag: #fff1e6;
+  --chip: #e7eeec;
+  --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --body: "Figtree", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f1b19; --surface: #162624; --ink: #e6efec; --muted: #9db1ac; --line: #263a37;
+  --accent: #ff8a3d; --accent-ink: #1a0e05; --tag: #2a2018; --chip: #1f3330; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0f1b19; --surface: #162624; --ink: #e6efec; --muted: #9db1ac; --line: #263a37;
+  --accent: #ff8a3d; --accent-ink: #1a0e05; --tag: #2a2018; --chip: #1f3330; color-scheme: dark }
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.55; }
+.wrap { max-width: 1120px; margin: 0 auto; padding-inline: 20px; padding-block: 0 48px; }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+
+header.hero { padding-block: 48px 28px; display: grid; gap: 14px; }
+.stamp { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); display: flex; flex-wrap: wrap; gap: 8px 16px; }
+.stamp b { color: var(--accent); font-weight: 500; }
+h1 { font-family: var(--display); font-weight: 800; font-size: clamp(2.6rem, 7vw, 4.6rem); line-height: .95; letter-spacing: -.03em; margin: 0; text-wrap: balance; }
+h1 em { font-style: normal; color: var(--accent); }
+.lede { max-width: 58ch; color: var(--muted); font-size: 1.08rem; margin: 0; }
+.note { max-width: 62ch; margin: 0; font-size: .95rem; }
+
+.rail { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 12px; border-bottom: 1px solid var(--line); display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; }
+.rail button { flex: 0 0 auto; font: 600 14px var(--body); color: var(--ink); background: var(--chip); border: 1px solid transparent; border-radius: 999px; padding: 7px 14px; cursor: pointer; }
+.rail button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+
+h2 { font-family: var(--display); font-weight: 700; font-size: 1.7rem; letter-spacing: -.02em; margin: 0; }
+.section-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; margin-block: 36px 18px; }
+.section-head p { margin: 0; color: var(--muted); font-size: .95rem; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 18px; }
+.card { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 14px 14px 14px 4px; padding: 22px 20px 18px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.card::before { content: ""; position: absolute; top: 14px; right: 16px; width: 10px; height: 10px; border-radius: 50%; border: 2px solid var(--line); background: var(--bg); }
+.cat { align-self: flex-start; font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; background: var(--tag); color: var(--accent); padding: 3px 8px; border-radius: 4px; }
+.card h3 { font-family: var(--display); font-weight: 700; font-size: 1.2rem; line-height: 1.2; margin: 0; text-wrap: balance; }
+.card p { margin: 0; color: var(--muted); font-size: .95rem; flex: 1; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; text-decoration: none; font-weight: 600; font-size: .95rem; background: var(--accent); color: var(--accent-ink); border-radius: 8px; padding: 10px 14px; margin-top: 4px; }
+.btn:hover { filter: brightness(1.06); }
+
+.shelves { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.shelf { display: grid; gap: 4px; text-decoration: none; padding: 16px 18px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); }
+.shelf strong { font-family: var(--display); font-size: 1.05rem; }
+.shelf span { color: var(--muted); font-size: .88rem; }
+.shelf:hover { border-color: var(--accent); }
+
+.budget { display: flex; flex-wrap: wrap; gap: 10px; }
+.budget a { text-decoration: none; border: 1px dashed var(--accent); color: var(--ink); padding: 9px 14px; border-radius: 8px; font-weight: 500; }
+.budget a b { font-family: var(--mono); color: var(--accent); font-weight: 500; margin-left: 4px; }
+
+footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: .88rem; display: grid; gap: 6px; }
+footer strong { color: var(--ink); }
+@media (prefers-reduced-motion: no-preference) { .card { transition: transform .15s ease; } .card:hover { transform: translateY(-2px); } }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="hero">
+    <div class="stamp"><span>Refreshed every other day</span><span>Last update <b id="updated">Oct 7, 2026</b></span></div>
+    <h1>Marcy's <em>Finds</em></h1>
+    <p class="lede">Affordable, fast-selling Amazon products, picked from the best-seller charts and refreshed every other day. Tap any item to see today's price on Amazon.</p>
+    <p class="note" id="roundNote"></p>
+  </header>
+
+  <nav class="rail" id="rail" aria-label="Filter by category"></nav>
+
+  <section>
+    <div class="section-head"><h2>This round's picks</h2><p id="count"></p></div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section>
+    <div class="section-head"><h2>Live best-seller charts</h2><p>Updated hourly by Amazon</p></div>
+    <div class="shelves" id="shelves"></div>
+  </section>
+
+  <section>
+    <div class="section-head"><h2>Under $25 shelves</h2><p>Amazon search, filtered to $25 and below</p></div>
+    <div class="budget" id="budget"></div>
+  </section>
+
+  <footer>
+    <p><strong>As an Amazon Associate I earn from qualifying purchases.</strong> Links on this page are affiliate links; buying through them costs you nothing extra.</p>
+    <p>Prices and availability change often. Check the current price on Amazon before you buy.</p>
+  </footer>
+</div>
+
+<script id="fallback" type="application/json">
+{"updated": "2026-10-07", "round_note": "Fall favorites heading into October deal season: skincare staples, small smart-home upgrades, and cozy basics.", "picks": [{"name": "LANEIGE Lip Sleeping Mask", "category": "Beauty", "why": "Overnight lip treatment that stays near the top of the beauty charts. Easy gift, easy add-to-cart.", "query": "LANEIGE Lip Sleeping Mask"}, {"name": "LANEIGE Lip Glowy Balm", "category": "Beauty", "why": "The daytime sibling of the sleeping mask. Tinted, glossy, and moisturizing without feeling sticky.", "query": "LANEIGE Lip Glowy Balm"}, {"name": "Differin Adapalene Gel", "category": "Beauty", "why": "Over-the-counter retinoid for acne-prone skin. A long-running best seller that dermatologists often mention.", "query": "Differin Adapalene Gel 0.1%"}, {"name": "Kasa Smart Plug Ultra Mini", "category": "Tech", "why": "Turns any lamp or appliance into a voice- or app-controlled one. Usually sold in multipacks for a low per-plug cost.", "query": "Kasa Smart Plug Ultra Mini"}, {"name": "JBL Go 4 Portable Speaker", "category": "Tech", "why": "Pocket-size waterproof Bluetooth speaker. Frequently discounted during deal events.", "query": "JBL Go 4 portable bluetooth speaker"}, {"name": "Fire TV Stick HD", "category": "Tech", "why": "Cheapest way to make an older TV smart. One of Amazon's most-gifted devices every season.", "query": "Fire TV Stick HD"}, {"name": "Blink Video Doorbell", "category": "Home", "why": "Battery-powered video doorbell with a tall head-to-toe view, so you can see packages on the step.", "query": "Blink Video Doorbell"}, {"name": "Under-Cabinet LED Lights", "category": "Home", "why": "Stick-on, motion-sensing light bars for kitchens and closets. No wiring, big visual upgrade.", "query": "under cabinet LED lights motion sensor rechargeable"}, {"name": "Silicone Ice Cube Trays with Lids", "category": "Kitchen", "why": "Stackable, easy-release trays. A steady seller that rarely costs more than a takeout lunch.", "query": "silicone ice cube trays with lid"}, {"name": "Portable Label Maker", "category": "Home", "why": "Bluetooth label maker for pantry and closet organizing. Shows up on best-seller lists every fall.", "query": "portable bluetooth label maker"}, {"name": "Amazon Essentials Men's Pullover Hoodie", "category": "Fashion", "why": "Basic fleece hoodie in dozens of colors, including big and tall sizes. Cold-weather staple.", "query": "Amazon Essentials Men's Pullover Hoodie Sweatshirt"}, {"name": "Amazon Essentials Women's Skinny Jean", "category": "Fashion", "why": "Mid-rise stretch denim with thousands of reviews. Reliable fit at a budget price.", "query": "Amazon Essentials Women's Mid-Rise Stretchy Skinny Jean"}, {"name": "TSA-Approved Travel Bottles", "category": "Travel", "why": "Leak-proof silicone bottles sized for carry-on rules. Ahead of holiday travel, these move fast.", "query": "TSA approved silicone travel bottles set"}, {"name": "Stainless Steel Pet Bowls", "category": "Pets", "why": "Non-slip, dishwasher-safe bowls for cats and dogs. A low-cost repeat purchase for pet owners.", "query": "stainless steel non slip pet bowls"}]}
+</script>
+<script>
+const TAG = "marcy02ff-20";
+const amz = (path) => `https://www.amazon.com${path}${path.includes("?") ? "&" : "?"}tag=${TAG}`;
+const search = (q, extra = "") => amz(`/s?k=${encodeURIComponent(q)}${extra}`);
+
+const SHELVES = [
+  ["Best Sellers", "Top 100 across every department", "/gp/bestsellers/"],
+  ["Movers & Shakers", "Biggest sales-rank jumps today", "/gp/movers-and-shakers/"],
+  ["Today's Deals", "Lightning and daily deals", "/deals"],
+  ["Hot New Releases", "Fastest-selling new arrivals", "/gp/new-releases/"],
+  ["Most Wished For", "What people are saving for later", "/gp/most-wished-for/"],
+  ["Gift Ideas", "Most-gifted items right now", "/gp/most-gifted/"],
+  ["Home & Kitchen", "Best sellers", "/gp/bestsellers/home-garden/"],
+  ["Beauty", "Best sellers", "/gp/bestsellers/beauty/"],
+  ["Electronics", "Best sellers", "/gp/bestsellers/electronics/"],
+  ["Pet Supplies", "Best sellers", "/gp/bestsellers/pet-supplies/"],
+  ["Toys & Games", "Best sellers", "/gp/bestsellers/toys-and-games/"],
+  ["Health & Household", "Best sellers", "/gp/bestsellers/hpc/"]
+];
+const BUDGET = ["kitchen gadgets", "phone accessories", "skincare", "home organization", "pet toys", "stocking stuffers", "fitness accessories", "car accessories"];
+
+let data = { picks: [] }, active = "All";
+
+function fmtDate(iso) {
+  const d = new Date(iso + "T12:00:00");
+  return isNaN(d) ? iso : d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+}
+function el(tag, attrs = {}, text) {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v);
+  if (text != null) n.textContent = text;
+  return n;
+}
+function renderRail() {
+  const rail = document.getElementById("rail"); rail.textContent = "";
+  const cats = ["All", ...new Set(data.picks.map(p => p.category))];
+  cats.forEach(c => {
+    const b = el("button", { type: "button", "aria-pressed": String(c === active) }, c);
+    b.addEventListener("click", () => { active = c; renderRail(); renderGrid(); });
+    rail.appendChild(b);
+  });
+}
+function renderGrid() {
+  const grid = document.getElementById("grid"); grid.textContent = "";
+  const list = data.picks.filter(p => active === "All" || p.category === active);
+  list.forEach(p => {
+    const card = el("article", { class: "card" });
+    card.appendChild(el("span", { class: "cat" }, p.category));
+    card.appendChild(el("h3", {}, p.name));
+    card.appendChild(el("p", {}, p.why));
+    const a = el("a", { class: "btn", href: p.url || search(p.query || p.name), target: "_blank", rel: "sponsored noopener" }, "Check price on Amazon →");
+    card.appendChild(a);
+    grid.appendChild(card);
+  });
+  document.getElementById("count").textContent = `${list.length} item${list.length === 1 ? "" : "s"}`;
+}
+function renderStatic() {
+  const s = document.getElementById("shelves");
+  SHELVES.forEach(([t, d, path]) => {
+    const a = el("a", { class: "shelf", href: amz(path), target: "_blank", rel: "sponsored noopener" });
+    a.appendChild(el("strong", {}, t)); a.appendChild(el("span", {}, d)); s.appendChild(a);
+  });
+  const b = document.getElementById("budget");
+  BUDGET.forEach(q => {
+    const a = el("a", { href: search(q, "&rh=p_36%3A-2500"), target: "_blank", rel: "sponsored noopener" }, q);
+    a.appendChild(el("b", {}, "≤$25")); b.appendChild(a);
+  });
+}
+function apply(d) {
+  data = d;
+  document.getElementById("updated").textContent = fmtDate(d.updated);
+  document.getElementById("roundNote").textContent = d.round_note || "";
+  renderRail(); renderGrid();
+}
+renderStatic();
+try { apply(JSON.parse(document.getElementById("fallback").textContent)); } catch (e) {}
+fetch("picks.json", { cache: "no-store" }).then(r => r.ok ? r.json() : Promise.reject()).then(apply).catch(() => {});
+</script>
+</body>
+</html>
