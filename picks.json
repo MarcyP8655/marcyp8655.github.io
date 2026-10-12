@@ -1,89 +1,101 @@
 {
-  "updated": "2026-10-07",
-  "round_note": "Fall favorites heading into October deal season: skincare staples, small smart-home upgrades, and cozy basics.",
+  "updated": "2026-10-12",
+  "round_note": "Post-Prime Day favorites that are still moving: cozy fall layers, Korean skincare, and small upgrades for the kitchen, car and keychain.",
   "picks": [
     {
-      "name": "LANEIGE Lip Sleeping Mask",
-      "category": "Beauty",
-      "why": "Overnight lip treatment that stays near the top of the beauty charts. Easy gift, easy add-to-cart.",
-      "query": "LANEIGE Lip Sleeping Mask"
-    },
-    {
-      "name": "LANEIGE Lip Glowy Balm",
-      "category": "Beauty",
-      "why": "The daytime sibling of the sleeping mask. Tinted, glossy, and moisturizing without feeling sticky.",
-      "query": "LANEIGE Lip Glowy Balm"
-    },
-    {
-      "name": "Differin Adapalene Gel",
-      "category": "Beauty",
-      "why": "Over-the-counter retinoid for acne-prone skin. A long-running best seller that dermatologists often mention.",
-      "query": "Differin Adapalene Gel 0.1%"
-    },
-    {
-      "name": "Kasa Smart Plug Ultra Mini",
+      "name": "Apple AirTag",
       "category": "Tech",
-      "why": "Turns any lamp or appliance into a voice- or app-controlled one. Usually sold in multipacks for a low per-plug cost.",
-      "query": "Kasa Smart Plug Ultra Mini"
-    },
-    {
-      "name": "JBL Go 4 Portable Speaker",
-      "category": "Tech",
-      "why": "Pocket-size waterproof Bluetooth speaker. Frequently discounted during deal events.",
-      "query": "JBL Go 4 portable bluetooth speaker"
+      "why": "Clip it to keys, luggage or a backpack and find it from your phone. One of the most-bought tracker gifts every fall.",
+      "query": "Apple AirTag"
     },
     {
       "name": "Fire TV Stick HD",
       "category": "Tech",
-      "why": "Cheapest way to make an older TV smart. One of Amazon's most-gifted devices every season.",
+      "why": "The cheapest way to make an older TV smart, and a perennial top seller in Amazon devices.",
       "query": "Fire TV Stick HD"
     },
     {
-      "name": "Blink Video Doorbell",
-      "category": "Home",
-      "why": "Battery-powered video doorbell with a tall head-to-toe view, so you can see packages on the step.",
-      "query": "Blink Video Doorbell"
+      "name": "OLight iMini 2 Keychain Flashlight",
+      "category": "Tech",
+      "why": "A tiny rechargeable light that rides on your keys and sticks to metal with a magnet.",
+      "query": "OLight iMini 2 rechargeable keychain flashlight"
     },
     {
-      "name": "Under-Cabinet LED Lights",
+      "name": "Hoto 25-Piece Electric Screwdriver Kit",
       "category": "Home",
-      "why": "Stick-on, motion-sensing light bars for kitchens and closets. No wiring, big visual upgrade.",
-      "query": "under cabinet LED lights motion sensor rechargeable"
+      "why": "Rechargeable screwdriver with 25 bits in a tidy case. A popular gift for new homeowners and renters.",
+      "query": "HOTO 25 piece electric screwdriver kit"
     },
     {
-      "name": "Silicone Ice Cube Trays with Lids",
+      "name": "Dawn Platinum Powerwash Dish Spray",
+      "category": "Home",
+      "why": "Spray-and-wipe dish soap with a huge review count. Easy repeat purchase.",
+      "query": "Dawn Platinum Powerwash Dish Spray bundle refills"
+    },
+    {
+      "name": "Tide Odor + Oxi Laundry Pods",
+      "category": "Home",
+      "why": "Big-pack laundry pods that dropped to a low price during the October sale, a stock-up favorite.",
+      "query": "Tide Odor Oxi laundry detergent pods 63 count"
+    },
+    {
+      "name": "KitchenAid Silicone Oven Mitts (2-Pack)",
       "category": "Kitchen",
-      "why": "Stackable, easy-release trays. A steady seller that rarely costs more than a takeout lunch.",
-      "query": "silicone ice cube trays with lid"
+      "why": "Ribbed silicone mitts with a soft lining. Timely ahead of holiday baking season.",
+      "query": "KitchenAid Ribbed Soft Silicone Oven Mitt 2 pack"
     },
     {
-      "name": "Portable Label Maker",
-      "category": "Home",
-      "why": "Bluetooth label maker for pantry and closet organizing. Shows up on best-seller lists every fall.",
-      "query": "portable bluetooth label maker"
+      "name": "YETI Rambler 35 oz Straw Mug",
+      "category": "Kitchen",
+      "why": "Insulated, dishwasher-safe and fits most cupholders. A go-to gift that rarely stays discounted long.",
+      "query": "YETI Rambler 35 oz Straw Mug"
     },
     {
-      "name": "Amazon Essentials Men's Pullover Hoodie",
+      "name": "LANEIGE Lip Sleeping Mask",
+      "category": "Beauty",
+      "why": "The overnight lip treatment that keeps topping the beauty charts. Easy stocking stuffer.",
+      "query": "LANEIGE Lip Sleeping Mask"
+    },
+    {
+      "name": "Anua PDRN Hyaluronic Acid Moisturizing Cream",
+      "category": "Beauty",
+      "why": "Lightweight Korean moisturizer layered with hyaluronic acid. K-beauty is one of the hottest corners of Amazon beauty right now.",
+      "query": "Anua PDRN Hyaluronic Acid 100 Moisturizing Cream"
+    },
+    {
+      "name": "Grace & Stella Under Eye Masks",
+      "category": "Beauty",
+      "why": "Cooling under-eye patches sold in multi-pair packs. A long-running Amazon beauty best seller.",
+      "query": "Grace and Stella energizing under eye mask 24 pairs"
+    },
+    {
+      "name": "Hanes Women's Full-Zip Hoodie",
       "category": "Fashion",
-      "why": "Basic fleece hoodie in dozens of colors, including big and tall sizes. Cold-weather staple.",
-      "query": "Amazon Essentials Men's Pullover Hoodie Sweatshirt"
+      "why": "Classic fleece zip-up for fall in lots of colors, at a basics price.",
+      "query": "Hanes Women's Full-Zip Hoodie Sweatshirt"
     },
     {
-      "name": "Amazon Essentials Women's Skinny Jean",
+      "name": "EverFoams Fuzzy Slippers",
       "category": "Fashion",
-      "why": "Mid-rise stretch denim with thousands of reviews. Reliable fit at a budget price.",
-      "query": "Amazon Essentials Women's Mid-Rise Stretchy Skinny Jean"
+      "why": "Faux-fur slippers with memory foam and a non-slip sole. Cold-weather bestsellers that sell out by December.",
+      "query": "EverFoams women's fuzzy memory foam slippers"
     },
     {
-      "name": "TSA-Approved Travel Bottles",
+      "name": "Colorfulkoala High Waisted Leggings",
+      "category": "Fitness",
+      "why": "Buttery-soft high-rise leggings for workouts or lounging, with thousands of fans.",
+      "query": "Colorfulkoala Dreamlux high waisted leggings"
+    },
+    {
+      "name": "FYY Travel Cable Organizer Pouch",
       "category": "Travel",
-      "why": "Leak-proof silicone bottles sized for carry-on rules. Ahead of holiday travel, these move fast.",
-      "query": "TSA approved silicone travel bottles set"
+      "why": "Waterproof pouch with sections for chargers and small tech. Handy before holiday trips.",
+      "query": "FYY travel cable organizer pouch"
     },
     {
       "name": "Stainless Steel Pet Bowls",
       "category": "Pets",
-      "why": "Non-slip, dishwasher-safe bowls for cats and dogs. A low-cost repeat purchase for pet owners.",
+      "why": "Non-slip, dishwasher-safe bowls for cats and dogs. A low-cost repeat buy for pet owners.",
       "query": "stainless steel non slip pet bowls"
     }
   ]
