@@ -1,102 +1,102 @@
 {
-  "updated": "2026-10-12",
-  "round_note": "Post-Prime Day favorites that are still moving: cozy fall layers, Korean skincare, and small upgrades for the kitchen, car and keychain.",
+  "updated": "2026-10-14",
+  "round_note": "The October sale's true best sellers, the cheap everyday buys and small gifts people kept adding to their carts, plus cozy basics as the weather turns.",
   "picks": [
-    {
-      "name": "Apple AirTag",
-      "category": "Tech",
-      "why": "Clip it to keys, luggage or a backpack and find it from your phone. One of the most-bought tracker gifts every fall.",
-      "query": "Apple AirTag"
-    },
     {
       "name": "Fire TV Stick HD",
       "category": "Tech",
-      "why": "The cheapest way to make an older TV smart, and a perennial top seller in Amazon devices.",
-      "query": "Fire TV Stick HD"
+      "why": "The cheapest way to make an older TV smart, and once again one of the top sellers of the October sale.",
+      "query": "Amazon Fire TV Stick HD"
     },
     {
-      "name": "OLight iMini 2 Keychain Flashlight",
+      "name": "Anker Nano Power Bank",
       "category": "Tech",
-      "why": "A tiny rechargeable light that rides on your keys and sticks to metal with a magnet.",
-      "query": "OLight iMini 2 rechargeable keychain flashlight"
+      "why": "Pocket-size charger with a built-in connector, so there's no cable to forget. A favorite stocking stuffer.",
+      "query": "Anker Nano Power Bank built-in connector"
+    },
+    {
+      "name": "Amazon Smart Plug (2-Pack)",
+      "category": "Tech",
+      "why": "Puts lamps and holiday lights on a schedule or on Alexa voice control. One of the most-reviewed smart home items on Amazon.",
+      "query": "Amazon Smart Plug 2-pack"
     },
     {
       "name": "Hoto 25-Piece Electric Screwdriver Kit",
       "category": "Home",
-      "why": "Rechargeable screwdriver with 25 bits in a tidy case. A popular gift for new homeowners and renters.",
+      "why": "Rechargeable screwdriver with 25 bits in a tidy case. A practical gift that kept selling after the sale.",
       "query": "HOTO 25 piece electric screwdriver kit"
     },
     {
-      "name": "Dawn Platinum Powerwash Dish Spray",
+      "name": "Nicetown Blackout Curtains",
       "category": "Home",
-      "why": "Spray-and-wipe dish soap with a huge review count. Easy repeat purchase.",
-      "query": "Dawn Platinum Powerwash Dish Spray bundle refills"
+      "why": "Thermal curtains that block light and cold drafts. A steady seller as the days get shorter.",
+      "query": "NICETOWN blackout curtains thermal insulated"
+    },
+    {
+      "name": "Energizer AA and AAA Batteries (48 Count)",
+      "category": "Home",
+      "why": "A big mixed pack of batteries, handy for remotes and new toys before the holidays. One of the most-reviewed items on Amazon.",
+      "query": "Energizer AA AAA batteries 48 count combo pack"
     },
     {
       "name": "Tide Odor + Oxi Laundry Pods",
       "category": "Home",
-      "why": "Big-pack laundry pods that dropped to a low price during the October sale, a stock-up favorite.",
+      "why": "Big-pack laundry pods that people stock up on, and one of the top household sellers this month.",
       "query": "Tide Odor Oxi laundry detergent pods 63 count"
+    },
+    {
+      "name": "Dawn Platinum Powerwash Dish Spray",
+      "category": "Home",
+      "why": "Spray-and-wipe dish soap with a huge fan base. An easy repeat purchase.",
+      "query": "Dawn Platinum Powerwash Dish Spray bundle refills"
     },
     {
       "name": "KitchenAid Silicone Oven Mitts (2-Pack)",
       "category": "Kitchen",
-      "why": "Ribbed silicone mitts with a soft lining. Timely ahead of holiday baking season.",
+      "why": "Ribbed silicone mitts with a soft lining, ready for holiday baking. A top kitchen seller this month.",
       "query": "KitchenAid Ribbed Soft Silicone Oven Mitt 2 pack"
     },
     {
-      "name": "YETI Rambler 35 oz Straw Mug",
-      "category": "Kitchen",
-      "why": "Insulated, dishwasher-safe and fits most cupholders. A go-to gift that rarely stays discounted long.",
-      "query": "YETI Rambler 35 oz Straw Mug"
+      "name": "LANEIGE Lip Glowy Balm",
+      "category": "Beauty",
+      "why": "Tinted, glossy lip balm that moisturizes without feeling sticky. A beauty best seller and an easy small gift.",
+      "query": "LANEIGE Lip Glowy Balm"
     },
     {
-      "name": "LANEIGE Lip Sleeping Mask",
+      "name": "Medicube Toner Pads",
       "category": "Beauty",
-      "why": "The overnight lip treatment that keeps topping the beauty charts. Easy stocking stuffer.",
-      "query": "LANEIGE Lip Sleeping Mask"
+      "why": "K-beauty toner pads that were among the best-selling skincare of the October sale. A quick, no-mess way to prep skin.",
+      "query": "Medicube Toner Pads"
     },
     {
       "name": "Anua PDRN Hyaluronic Acid Moisturizing Cream",
       "category": "Beauty",
-      "why": "Lightweight Korean moisturizer layered with hyaluronic acid. K-beauty is one of the hottest corners of Amazon beauty right now.",
+      "why": "Lightweight Korean moisturizer for dry fall skin, from one of the fastest-rising K-beauty brands on Amazon.",
       "query": "Anua PDRN Hyaluronic Acid 100 Moisturizing Cream"
-    },
-    {
-      "name": "Grace & Stella Under Eye Masks",
-      "category": "Beauty",
-      "why": "Cooling under-eye patches sold in multi-pair packs. A long-running Amazon beauty best seller.",
-      "query": "Grace and Stella energizing under eye mask 24 pairs"
-    },
-    {
-      "name": "Hanes Women's Full-Zip Hoodie",
-      "category": "Fashion",
-      "why": "Classic fleece zip-up for fall in lots of colors, at a basics price.",
-      "query": "Hanes Women's Full-Zip Hoodie Sweatshirt"
     },
     {
       "name": "EverFoams Fuzzy Slippers",
       "category": "Fashion",
-      "why": "Faux-fur slippers with memory foam and a non-slip sole. Cold-weather bestsellers that sell out by December.",
+      "why": "Faux-fur slippers with memory foam and a non-slip sole. Cold-weather favorites that sell out by December.",
       "query": "EverFoams women's fuzzy memory foam slippers"
     },
     {
-      "name": "Colorfulkoala High Waisted Leggings",
+      "name": "Hanes Women's Full-Zip Hoodie",
+      "category": "Fashion",
+      "why": "Classic fleece zip-up in lots of colors at a basics price. A fall layering staple.",
+      "query": "Hanes Women's Full-Zip Hoodie Sweatshirt"
+    },
+    {
+      "name": "Owala FreeSip 40 oz Water Bottle",
       "category": "Fitness",
-      "why": "Buttery-soft high-rise leggings for workouts or lounging, with thousands of fans.",
-      "query": "Colorfulkoala Dreamlux high waisted leggings"
+      "why": "Insulated bottle you can sip through the straw or swig from the spout. One of the most-bought water bottles on Amazon.",
+      "query": "Owala FreeSip 40 oz stainless steel water bottle"
     },
     {
       "name": "FYY Travel Cable Organizer Pouch",
       "category": "Travel",
-      "why": "Waterproof pouch with sections for chargers and small tech. Handy before holiday trips.",
+      "why": "Waterproof pouch with sections for chargers and earbuds. Handy before holiday trips.",
       "query": "FYY travel cable organizer pouch"
-    },
-    {
-      "name": "Stainless Steel Pet Bowls",
-      "category": "Pets",
-      "why": "Non-slip, dishwasher-safe bowls for cats and dogs. A low-cost repeat buy for pet owners.",
-      "query": "stainless steel non slip pet bowls"
     }
   ]
 }
