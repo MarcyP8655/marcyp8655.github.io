@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-20",
-  "round_note": "Stocking-stuffer season starts now: Holiday Beauty Event favorites, small gifts for kids, dogs and travelers, and the everyday best sellers that keep moving.",
+  "updated": "2026-10-22",
+  "round_note": "Winter-ready skincare and household restocks on deep discount this week, plus early holiday gifts for kids, dogs and stockings.",
   "picks": [
     {
       "name": "Fire TV Stick HD",
@@ -27,12 +27,6 @@
       "query": "COSRX Acne Pimple Master Patch 240 count"
     },
     {
-      "name": "Burt's Bees Overnight Intensive Lip Treatment",
-      "category": "Beauty",
-      "why": "A rich overnight lip treatment for dry winter lips, and part of Amazon's Holiday Beauty Event.",
-      "query": "Burt's Bees Original Overnight Intensive Lip Treatment"
-    },
-    {
       "name": "Medicube Toner Pads",
       "category": "Beauty",
       "why": "K-beauty toner pads that were among the best-selling skincare of October. A quick, no-mess way to prep skin.",
@@ -45,10 +39,22 @@
       "query": "LANEIGE Lip Glowy Balm"
     },
     {
+      "name": "Aveeno Skin Relief Fragrance-Free Lotion",
+      "category": "Beauty",
+      "why": "Fragrance-free body lotion for itchy, dry winter skin. A drugstore staple that's on a big discount this week.",
+      "query": "Aveeno Skin Relief Moisturizing Lotion fragrance free 18 oz"
+    },
+    {
       "name": "Lysol Disinfecting Wipes (4-Pack)",
       "category": "Home",
-      "why": "Multi-surface wipes for kitchens and bathrooms. Families stock up heading into cold and flu season.",
+      "why": "Multi-surface wipes for kitchens and bathrooms, and one of this week's steepest Amazon household deals heading into flu season.",
       "query": "Lysol Disinfecting Wipes bundle 4 pack"
+    },
+    {
+      "name": "Mrs. Meyer's Hand Soap Refill",
+      "category": "Home",
+      "why": "A large refill of the popular plant-based hand soap. Handy to have before holiday guests arrive.",
+      "query": "Mrs. Meyer's Clean Day Hand Soap Refill Lemon Verbena 33 oz"
     },
     {
       "name": "KitchenAid Silicone Oven Mitts (2-Pack)",
@@ -75,22 +81,16 @@
       "query": "Owala FreeSip 40 oz stainless steel water bottle"
     },
     {
-      "name": "LifeStraw Personal Water Filter",
-      "category": "Travel",
-      "why": "A portable straw filter for hikers and travelers. A long-time Amazon favorite and a useful small gift.",
-      "query": "LifeStraw Personal Water Filter"
-    },
-    {
       "name": "Bocce's Bakery Dog Advent Calendar",
       "category": "Pets",
       "why": "Twelve days of all-natural dog treats. A fun way to include the dog in the holiday countdown.",
       "query": "Bocce's Bakery 12 day advent calendar for dogs"
     },
     {
-      "name": "Mudpuppy 48-Piece Mini Puzzle",
+      "name": "LEGO Disney Frozen Olaf and Bruni's Picnic",
       "category": "Toys",
-      "why": "A travel-size puzzle for kids ages 4 and up. Small enough to fit in a stocking.",
-      "query": "Mudpuppy 48 piece mini puzzle"
+      "why": "A 478-piece Frozen set at a deep discount this week. An early holiday gift for young LEGO fans.",
+      "query": "LEGO Disney Frozen Olaf and Bruni's Picnic Fun"
     }
   ]
 }
