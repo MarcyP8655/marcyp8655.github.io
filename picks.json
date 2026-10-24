@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-22",
-  "round_note": "Winter-ready skincare and household restocks on deep discount this week, plus early holiday gifts for kids, dogs and stockings.",
+  "updated": "2026-10-24",
+  "round_note": "Gift-ready tech, winter skincare and cozy layers that dropped in price this weekend, plus the stocking stuffers that keep selling.",
   "picks": [
     {
       "name": "Fire TV Stick HD",
@@ -21,6 +21,12 @@
       "query": "Amazon Smart Plug 2-pack"
     },
     {
+      "name": "Apple AirTag (2nd Generation)",
+      "category": "Tech",
+      "why": "Track keys, wallets and luggage from your iPhone. A top stocking stuffer, and it's discounted ahead of holiday travel.",
+      "query": "Apple AirTag 2nd generation"
+    },
+    {
       "name": "COSRX Acne Pimple Patches (240 Count)",
       "category": "Beauty",
       "why": "Hydrocolloid patches that flatten breakouts overnight. A big multi-pack featured in Amazon's Holiday Beauty Event.",
@@ -39,22 +45,22 @@
       "query": "LANEIGE Lip Glowy Balm"
     },
     {
-      "name": "Aveeno Skin Relief Fragrance-Free Lotion",
+      "name": "CeraVe Skin Renewing Night Cream",
       "category": "Beauty",
-      "why": "Fragrance-free body lotion for itchy, dry winter skin. A drugstore staple that's on a big discount this week.",
-      "query": "Aveeno Skin Relief Moisturizing Lotion fragrance free 18 oz"
+      "why": "Ceramide night cream that locks in moisture while you sleep. A dermatologist-favorite brand that's on sale this week.",
+      "query": "CeraVe Skin Renewing Night Cream"
     },
     {
-      "name": "Lysol Disinfecting Wipes (4-Pack)",
-      "category": "Home",
-      "why": "Multi-surface wipes for kitchens and bathrooms, and one of this week's steepest Amazon household deals heading into flu season.",
-      "query": "Lysol Disinfecting Wipes bundle 4 pack"
+      "name": "Hanes Women's Full-Zip Hoodie",
+      "category": "Fashion",
+      "why": "Lightweight fleece zip-up in lots of colors at a basics price, and discounted again for fall.",
+      "query": "Hanes Women's Full-Zip Hoodie Sweatshirt"
     },
     {
-      "name": "Mrs. Meyer's Hand Soap Refill",
-      "category": "Home",
-      "why": "A large refill of the popular plant-based hand soap. Handy to have before holiday guests arrive.",
-      "query": "Mrs. Meyer's Clean Day Hand Soap Refill Lemon Verbena 33 oz"
+      "name": "Mueller 12-Cup Drip Coffee Maker",
+      "category": "Kitchen",
+      "why": "Simple programmable drip coffee maker at a deep discount this week. Easy upgrade before holiday guests arrive.",
+      "query": "Mueller 12 cup drip coffee maker"
     },
     {
       "name": "KitchenAid Silicone Oven Mitts (2-Pack)",
