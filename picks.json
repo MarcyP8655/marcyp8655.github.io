@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-24",
-  "round_note": "Gift-ready tech, winter skincare and cozy layers that dropped in price this weekend, plus the stocking stuffers that keep selling.",
+  "updated": "2026-10-26",
+  "round_note": "Holiday shopping is underway: picks from Amazon's 2026 Toys We Love list, plus the gift-ready tech and winter skincare that keep selling.",
   "picks": [
     {
       "name": "Fire TV Stick HD",
@@ -51,12 +51,6 @@
       "query": "CeraVe Skin Renewing Night Cream"
     },
     {
-      "name": "Hanes Women's Full-Zip Hoodie",
-      "category": "Fashion",
-      "why": "Lightweight fleece zip-up in lots of colors at a basics price, and discounted again for fall.",
-      "query": "Hanes Women's Full-Zip Hoodie Sweatshirt"
-    },
-    {
       "name": "Mueller 12-Cup Drip Coffee Maker",
       "category": "Kitchen",
       "why": "Simple programmable drip coffee maker at a deep discount this week. Easy upgrade before holiday guests arrive.",
@@ -93,10 +87,16 @@
       "query": "Bocce's Bakery 12 day advent calendar for dogs"
     },
     {
-      "name": "LEGO Disney Frozen Olaf and Bruni's Picnic",
+      "name": "Kanoodle 20th Anniversary Fan Edition",
       "category": "Toys",
-      "why": "A 478-piece Frozen set at a deep discount this week. An early holiday gift for young LEGO fans.",
-      "query": "LEGO Disney Frozen Olaf and Bruni's Picnic Fun"
+      "why": "A pocket-size logic puzzle with hundreds of challenges. Named to Amazon's 2026 Toys We Love list.",
+      "query": "Educational Insights Kanoodle Fan Edition 20th Anniversary"
+    },
+    {
+      "name": "CATAN On The Road Card Game",
+      "category": "Toys",
+      "why": "A travel-friendly card version of the classic strategy game, and one of the most affordable picks on Amazon's 2026 Toys We Love list.",
+      "query": "CATAN On The Road card game"
     }
   ]
 }
