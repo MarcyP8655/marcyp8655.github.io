@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-26",
-  "round_note": "Holiday shopping is underway: picks from Amazon's 2026 Toys We Love list, plus the gift-ready tech and winter skincare that keep selling.",
+  "updated": "2026-10-27",
+  "round_note": "Early Black Friday markdowns have started: K-beauty and cozy layers on sale, plus gift-ready tech and toys from Amazon's 2026 Toys We Love list.",
   "picks": [
     {
       "name": "Fire TV Stick HD",
@@ -27,10 +27,10 @@
       "query": "Apple AirTag 2nd generation"
     },
     {
-      "name": "COSRX Acne Pimple Patches (240 Count)",
+      "name": "Medicube One Day Exosome Shot 2000",
       "category": "Beauty",
-      "why": "Hydrocolloid patches that flatten breakouts overnight. A big multi-pack featured in Amazon's Holiday Beauty Event.",
-      "query": "COSRX Acne Pimple Master Patch 240 count"
+      "why": "A viral K-beauty serum from the brand behind the best-selling toner pads, and one of the deepest early Black Friday beauty deals right now.",
+      "query": "Medicube One Day Exosome Shot 2000"
     },
     {
       "name": "Medicube Toner Pads",
@@ -51,10 +51,10 @@
       "query": "CeraVe Skin Renewing Night Cream"
     },
     {
-      "name": "Mueller 12-Cup Drip Coffee Maker",
-      "category": "Kitchen",
-      "why": "Simple programmable drip coffee maker at a deep discount this week. Easy upgrade before holiday guests arrive.",
-      "query": "Mueller 12 cup drip coffee maker"
+      "name": "Lillusory Lightweight Cardigan",
+      "category": "Fashion",
+      "why": "A relaxed, oversized cardigan in lots of colors that editors keep recommending for fall layering. Marked down in early Black Friday deals.",
+      "query": "Lillusory lightweight oversized cardigan sweater"
     },
     {
       "name": "KitchenAid Silicone Oven Mitts (2-Pack)",
