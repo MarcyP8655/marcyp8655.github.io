@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-27",
-  "round_note": "Early Black Friday markdowns have started: K-beauty and cozy layers on sale, plus gift-ready tech and toys from Amazon's 2026 Toys We Love list.",
+  "updated": "2026-10-28",
+  "round_note": "Cozy-season comforts and early Black Friday markdowns, with the gift-ready tech, K-beauty and toys that keep selling.",
   "picks": [
     {
       "name": "Fire TV Stick HD",
@@ -13,12 +13,6 @@
       "category": "Tech",
       "why": "Pocket-size charger with a built-in connector, so there's no cable to forget. A favorite stocking stuffer.",
       "query": "Anker Nano Power Bank built-in connector"
-    },
-    {
-      "name": "Amazon Smart Plug (2-Pack)",
-      "category": "Tech",
-      "why": "Puts holiday lights and lamps on a schedule or Alexa voice control. One of the most-reviewed smart home items on Amazon.",
-      "query": "Amazon Smart Plug 2-pack"
     },
     {
       "name": "Apple AirTag (2nd Generation)",
@@ -55,6 +49,12 @@
       "category": "Fashion",
       "why": "A relaxed, oversized cardigan in lots of colors that editors keep recommending for fall layering. Marked down in early Black Friday deals.",
       "query": "Lillusory lightweight oversized cardigan sweater"
+    },
+    {
+      "name": "Bedsure GentleSoft Fleece Throw Blanket",
+      "category": "Home",
+      "why": "A soft, inexpensive fleece throw in lots of colors. A long-running Amazon best seller and an easy cozy gift as nights get colder.",
+      "query": "Bedsure GentleSoft fleece throw blanket 50x60"
     },
     {
       "name": "KitchenAid Silicone Oven Mitts (2-Pack)",
