@@ -7,83 +7,95 @@
 <title>Marcy's Finds</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,600&family=Outfit:wght@400;500;600&display=swap">
 <style>
-/* Layout: a shop window — hero stamp, filter rail, a grid of hang-tag cards, then live best-seller shelves. */
+/* Layout: a holiday gift shop window — ribboned hero, sticky category rail, gift-tag cards with a category illustration, then best-seller shelves. */
 :root {
-  --bg: #f5f7f6;
-  --surface: #ffffff;
-  --ink: #14302b;
-  --muted: #5a6f6a;
-  --line: #d9e2df;
-  --accent: #e8590c;
-  --accent-ink: #ffffff;
-  --tag: #fff1e6;
-  --chip: #e7eeec;
-  --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
-  --body: "Figtree", "Segoe UI", system-ui, sans-serif;
-  --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  --bg: #f7efe3;
+  --surface: #fffaf3;
+  --ink: #2a1a17;
+  --muted: #6e5b52;
+  --line: #e6d7c3;
+  --berry: #9b1b30;
+  --berry-ink: #fff6ee;
+  --pine: #1f4d3a;
+  --pine-ink: #f3ead9;
+  --gold: #b8892f;
+  --stamp: #1f4d3a;
+  --tag: #f6e3d6;
+  --art-a: #1f4d3a;
+  --art-b: #9b1b30;
+  --art-line: rgba(255, 246, 230, .9);
+  --display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --body: "Outfit", "Segoe UI", system-ui, sans-serif;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-  --bg: #0f1b19; --surface: #162624; --ink: #e6efec; --muted: #9db1ac; --line: #263a37;
-  --accent: #ff8a3d; --accent-ink: #1a0e05; --tag: #2a2018; --chip: #1f3330; color-scheme: dark } }
+  --bg: #121c18; --surface: #1a2722; --ink: #f2e8da; --muted: #b9a998; --line: #2c3d35;
+  --berry: #e0566b; --berry-ink: #1b0b0e; --pine: #2f6b52; --pine-ink: #f3ead9; --gold: #d9ae58; --stamp: #b9a998;
+  --tag: #33201f; --art-a: #23493a; --art-b: #6e1f2c; --art-line: rgba(255, 240, 220, .85); color-scheme: dark } }
 :root[data-theme="dark"] {
-  --bg: #0f1b19; --surface: #162624; --ink: #e6efec; --muted: #9db1ac; --line: #263a37;
-  --accent: #ff8a3d; --accent-ink: #1a0e05; --tag: #2a2018; --chip: #1f3330; color-scheme: dark }
+  --bg: #121c18; --surface: #1a2722; --ink: #f2e8da; --muted: #b9a998; --line: #2c3d35;
+  --berry: #e0566b; --berry-ink: #1b0b0e; --pine: #2f6b52; --pine-ink: #f3ead9; --gold: #d9ae58; --stamp: #b9a998;
+  --tag: #33201f; --art-a: #23493a; --art-b: #6e1f2c; --art-line: rgba(255, 240, 220, .85); color-scheme: dark }
 
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.55; }
 .wrap { max-width: 1120px; margin: 0 auto; padding-inline: 20px; padding-block: 0 48px; }
 a { color: inherit; }
-:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; border-radius: 6px; }
 
-header.hero { padding-block: 48px 28px; display: grid; gap: 14px; }
-.stamp { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); display: flex; flex-wrap: wrap; gap: 8px 16px; }
-.stamp b { color: var(--accent); font-weight: 500; }
-h1 { font-family: var(--display); font-weight: 800; font-size: clamp(2.6rem, 7vw, 4.6rem); line-height: .95; letter-spacing: -.03em; margin: 0; text-wrap: balance; }
-h1 em { font-style: normal; color: var(--accent); }
+.ribbon { height: 10px; background: repeating-linear-gradient(-45deg, var(--berry) 0 14px, var(--surface) 14px 20px, var(--pine) 20px 34px, var(--surface) 34px 40px); }
+header.hero { padding-block: 44px 26px; display: grid; gap: 14px; }
+.stamp { font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--stamp); display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.stamp b { color: var(--berry); font-weight: 600; }
+h1 { font-family: var(--display); font-weight: 800; font-size: clamp(2.8rem, 8vw, 5rem); line-height: .95; letter-spacing: -.02em; margin: 0; text-wrap: balance; }
+h1 em { font-style: italic; font-weight: 600; color: var(--berry); }
 .lede { max-width: 58ch; color: var(--muted); font-size: 1.08rem; margin: 0; }
-.note { max-width: 62ch; margin: 0; font-size: .95rem; }
+.note { max-width: 62ch; margin: 0; font-size: .98rem; padding: 10px 14px; border-left: 3px solid var(--gold); background: var(--surface); border-radius: 0 8px 8px 0; }
+.note:empty { display: none; }
 
 .rail { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 12px; border-bottom: 1px solid var(--line); display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; }
-.rail button { flex: 0 0 auto; font: 600 14px var(--body); color: var(--ink); background: var(--chip); border: 1px solid transparent; border-radius: 999px; padding: 7px 14px; cursor: pointer; }
-.rail button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.rail button { flex: 0 0 auto; font: 600 14px var(--body); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 7px 15px; cursor: pointer; }
+.rail button[aria-pressed="true"] { background: var(--pine); border-color: var(--pine); color: var(--pine-ink); }
 
-h2 { font-family: var(--display); font-weight: 700; font-size: 1.7rem; letter-spacing: -.02em; margin: 0; }
-.section-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; margin-block: 36px 18px; }
+h2 { font-family: var(--display); font-weight: 600; font-size: 1.8rem; letter-spacing: -.01em; margin: 0; }
+.section-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; margin-block: 38px 18px; }
 .section-head p { margin: 0; color: var(--muted); font-size: .95rem; }
 
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 18px; }
-.card { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 14px 14px 14px 4px; padding: 22px 20px 18px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
-.card::before { content: ""; position: absolute; top: 14px; right: 16px; width: 10px; height: 10px; border-radius: 50%; border: 2px solid var(--line); background: var(--bg); }
-.cat { align-self: flex-start; font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; background: var(--tag); color: var(--accent); padding: 3px 8px; border-radius: 4px; }
-.card h3 { font-family: var(--display); font-weight: 700; font-size: 1.2rem; line-height: 1.2; margin: 0; text-wrap: balance; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; min-width: 0; }
+.art { position: relative; height: 128px; max-width: 100%; display: grid; place-items: center; background: var(--art-a); background-image: radial-gradient(circle at 18% 28%, rgba(255,255,255,.09) 0 2px, transparent 3px), radial-gradient(circle at 72% 64%, rgba(255,255,255,.08) 0 2px, transparent 3px), radial-gradient(circle at 44% 82%, rgba(255,255,255,.07) 0 1.5px, transparent 2.5px); background-size: 90px 90px, 120px 120px, 70px 70px; }
+.card:nth-child(even) .art { background-color: var(--art-b); }
+.art svg { width: 64px; height: 64px; stroke: var(--art-line); fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.art .cat { position: absolute; left: 12px; top: 12px; font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; background: var(--surface); color: var(--berry); padding: 3px 9px; border-radius: 999px; }
+.body { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.card h3 { font-family: var(--display); font-weight: 600; font-size: 1.22rem; line-height: 1.2; margin: 0; text-wrap: balance; }
 .card p { margin: 0; color: var(--muted); font-size: .95rem; flex: 1; }
-.btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; text-decoration: none; font-weight: 600; font-size: .95rem; background: var(--accent); color: var(--accent-ink); border-radius: 8px; padding: 10px 14px; margin-top: 4px; }
-.btn:hover { filter: brightness(1.06); }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; text-decoration: none; font-weight: 600; font-size: .95rem; background: var(--berry); color: var(--berry-ink); border-radius: 10px; padding: 11px 14px; margin-top: 6px; white-space: nowrap; }
+.btn:hover { filter: brightness(1.08); }
 
 .shelves { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
-.shelf { display: grid; gap: 4px; text-decoration: none; padding: 16px 18px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); }
-.shelf strong { font-family: var(--display); font-size: 1.05rem; }
+.shelf { display: grid; gap: 4px; text-decoration: none; padding: 16px 18px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); }
+.shelf strong { font-family: var(--display); font-weight: 600; font-size: 1.08rem; }
 .shelf span { color: var(--muted); font-size: .88rem; }
-.shelf:hover { border-color: var(--accent); }
+.shelf:hover { border-color: var(--gold); }
 
 .budget { display: flex; flex-wrap: wrap; gap: 10px; }
-.budget a { text-decoration: none; border: 1px dashed var(--accent); color: var(--ink); padding: 9px 14px; border-radius: 8px; font-weight: 500; }
-.budget a b { font-family: var(--mono); color: var(--accent); font-weight: 500; margin-left: 4px; }
+.budget a { text-decoration: none; border: 1px dashed var(--pine); color: var(--ink); padding: 9px 14px; border-radius: 999px; font-weight: 500; background: var(--surface); }
+.budget a b { color: var(--berry); font-weight: 600; margin-left: 6px; }
 
 footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: .88rem; display: grid; gap: 6px; }
 footer strong { color: var(--ink); }
-@media (prefers-reduced-motion: no-preference) { .card { transition: transform .15s ease; } .card:hover { transform: translateY(-2px); } }
+@media (prefers-reduced-motion: no-preference) { .card { transition: transform .15s ease, box-shadow .15s ease; } .card:hover { transform: translateY(-3px); box-shadow: 0 10px 24px -14px rgba(42, 26, 23, .45); } }
 </style>
 </head>
 <body>
-
+<div class="ribbon" aria-hidden="true"></div>
 <div class="wrap">
   <header class="hero">
-    <div class="stamp"><span>Refreshed every other day</span><span>Last update <b id="updated">Oct 7, 2026</b></span></div>
+    <div class="stamp"><span>Gift-ready finds, refreshed every other day</span><span>Last update <b id="updated">Oct 28, 2026</b></span></div>
     <h1>Marcy's <em>Finds</em></h1>
-    <p class="lede">Affordable, fast-selling Amazon products, picked from the best-seller charts and refreshed every other day. Tap any item to see today's price on Amazon.</p>
+    <p class="lede">Affordable, fast-selling Amazon products, picked from the best-seller charts and holiday deal lists. Tap any item to see today's price on Amazon.</p>
     <p class="note" id="roundNote"></p>
   </header>
 
@@ -111,7 +123,7 @@ footer strong { color: var(--ink); }
 </div>
 
 <script id="fallback" type="application/json">
-{"updated": "2026-10-07", "round_note": "Fall favorites heading into October deal season: skincare staples, small smart-home upgrades, and cozy basics.", "picks": [{"name": "LANEIGE Lip Sleeping Mask", "category": "Beauty", "why": "Overnight lip treatment that stays near the top of the beauty charts. Easy gift, easy add-to-cart.", "query": "LANEIGE Lip Sleeping Mask"}, {"name": "LANEIGE Lip Glowy Balm", "category": "Beauty", "why": "The daytime sibling of the sleeping mask. Tinted, glossy, and moisturizing without feeling sticky.", "query": "LANEIGE Lip Glowy Balm"}, {"name": "Differin Adapalene Gel", "category": "Beauty", "why": "Over-the-counter retinoid for acne-prone skin. A long-running best seller that dermatologists often mention.", "query": "Differin Adapalene Gel 0.1%"}, {"name": "Kasa Smart Plug Ultra Mini", "category": "Tech", "why": "Turns any lamp or appliance into a voice- or app-controlled one. Usually sold in multipacks for a low per-plug cost.", "query": "Kasa Smart Plug Ultra Mini"}, {"name": "JBL Go 4 Portable Speaker", "category": "Tech", "why": "Pocket-size waterproof Bluetooth speaker. Frequently discounted during deal events.", "query": "JBL Go 4 portable bluetooth speaker"}, {"name": "Fire TV Stick HD", "category": "Tech", "why": "Cheapest way to make an older TV smart. One of Amazon's most-gifted devices every season.", "query": "Fire TV Stick HD"}, {"name": "Blink Video Doorbell", "category": "Home", "why": "Battery-powered video doorbell with a tall head-to-toe view, so you can see packages on the step.", "query": "Blink Video Doorbell"}, {"name": "Under-Cabinet LED Lights", "category": "Home", "why": "Stick-on, motion-sensing light bars for kitchens and closets. No wiring, big visual upgrade.", "query": "under cabinet LED lights motion sensor rechargeable"}, {"name": "Silicone Ice Cube Trays with Lids", "category": "Kitchen", "why": "Stackable, easy-release trays. A steady seller that rarely costs more than a takeout lunch.", "query": "silicone ice cube trays with lid"}, {"name": "Portable Label Maker", "category": "Home", "why": "Bluetooth label maker for pantry and closet organizing. Shows up on best-seller lists every fall.", "query": "portable bluetooth label maker"}, {"name": "Amazon Essentials Men's Pullover Hoodie", "category": "Fashion", "why": "Basic fleece hoodie in dozens of colors, including big and tall sizes. Cold-weather staple.", "query": "Amazon Essentials Men's Pullover Hoodie Sweatshirt"}, {"name": "Amazon Essentials Women's Skinny Jean", "category": "Fashion", "why": "Mid-rise stretch denim with thousands of reviews. Reliable fit at a budget price.", "query": "Amazon Essentials Women's Mid-Rise Stretchy Skinny Jean"}, {"name": "TSA-Approved Travel Bottles", "category": "Travel", "why": "Leak-proof silicone bottles sized for carry-on rules. Ahead of holiday travel, these move fast.", "query": "TSA approved silicone travel bottles set"}, {"name": "Stainless Steel Pet Bowls", "category": "Pets", "why": "Non-slip, dishwasher-safe bowls for cats and dogs. A low-cost repeat purchase for pet owners.", "query": "stainless steel non slip pet bowls"}]}
+{"updated": "2026-10-28", "round_note": "Cozy-season comforts and early Black Friday markdowns, with the gift-ready tech, K-beauty and toys that keep selling.", "picks": [{"name": "Fire TV Stick HD", "category": "Tech", "why": "The cheapest way to make an older TV smart, and one of Amazon's most-gifted devices every holiday season.", "query": "Amazon Fire TV Stick HD"}, {"name": "Anker Nano Power Bank", "category": "Tech", "why": "Pocket-size charger with a built-in connector, so there's no cable to forget. A favorite stocking stuffer.", "query": "Anker Nano Power Bank built-in connector"}, {"name": "Apple AirTag (2nd Generation)", "category": "Tech", "why": "Track keys, wallets and luggage from your iPhone. A top stocking stuffer, and it's discounted ahead of holiday travel.", "query": "Apple AirTag 2nd generation"}, {"name": "Medicube One Day Exosome Shot 2000", "category": "Beauty", "why": "A viral K-beauty serum from the brand behind the best-selling toner pads, and one of the deepest early Black Friday beauty deals right now.", "query": "Medicube One Day Exosome Shot 2000"}, {"name": "Medicube Toner Pads", "category": "Beauty", "why": "K-beauty toner pads that were among the best-selling skincare of October. A quick, no-mess way to prep skin.", "query": "Medicube Toner Pads"}, {"name": "LANEIGE Lip Glowy Balm", "category": "Beauty", "why": "Tinted, glossy lip balm that moisturizes without feeling sticky. A beauty best seller and an easy small gift.", "query": "LANEIGE Lip Glowy Balm"}, {"name": "CeraVe Skin Renewing Night Cream", "category": "Beauty", "why": "Ceramide night cream that locks in moisture while you sleep. A dermatologist-favorite brand that's on sale this week.", "query": "CeraVe Skin Renewing Night Cream"}, {"name": "Lillusory Lightweight Cardigan", "category": "Fashion", "why": "A relaxed, oversized cardigan in lots of colors that editors keep recommending for fall layering. Marked down in early Black Friday deals.", "query": "Lillusory lightweight oversized cardigan sweater"}, {"name": "Bedsure GentleSoft Fleece Throw Blanket", "category": "Home", "why": "A soft, inexpensive fleece throw in lots of colors. A long-running Amazon best seller and an easy cozy gift as nights get colder.", "query": "Bedsure GentleSoft fleece throw blanket 50x60"}, {"name": "KitchenAid Silicone Oven Mitts (2-Pack)", "category": "Kitchen", "why": "Ribbed silicone mitts with a soft lining, ready for holiday baking. A top kitchen seller this fall.", "query": "KitchenAid Ribbed Soft Silicone Oven Mitt 2 pack"}, {"name": "Tony's Chocolonely Chocolate Bar Pack", "category": "Food", "why": "A six-bar Fairtrade gift set in assorted flavors. Picked for Amazon's stocking stuffers under $25.", "query": "Tony's Chocolonely chocolate bar variety pack 6"}, {"name": "EverFoams Fuzzy Slippers", "category": "Fashion", "why": "Faux-fur slippers with memory foam and a non-slip sole. Cold-weather favorites that sell out by December.", "query": "EverFoams women's fuzzy memory foam slippers"}, {"name": "Owala FreeSip 40 oz Water Bottle", "category": "Fitness", "why": "Insulated bottle you can sip through the straw or swig from the spout. One of the most-bought water bottles on Amazon.", "query": "Owala FreeSip 40 oz stainless steel water bottle"}, {"name": "Bocce's Bakery Dog Advent Calendar", "category": "Pets", "why": "Twelve days of all-natural dog treats. A fun way to include the dog in the holiday countdown.", "query": "Bocce's Bakery 12 day advent calendar for dogs"}, {"name": "Kanoodle 20th Anniversary Fan Edition", "category": "Toys", "why": "A pocket-size logic puzzle with hundreds of challenges. Named to Amazon's 2026 Toys We Love list.", "query": "Educational Insights Kanoodle Fan Edition 20th Anniversary"}, {"name": "CATAN On The Road Card Game", "category": "Toys", "why": "A travel-friendly card version of the classic strategy game, and one of the most affordable picks on Amazon's 2026 Toys We Love list.", "query": "CATAN On The Road card game"}]}
 </script>
 <script>
 const TAG = "marcy02ff-20";
@@ -132,7 +144,31 @@ const SHELVES = [
   ["Toys & Games", "Best sellers", "/gp/bestsellers/toys-and-games/"],
   ["Health & Household", "Best sellers", "/gp/bestsellers/hpc/"]
 ];
-const BUDGET = ["kitchen gadgets", "phone accessories", "skincare", "home organization", "pet toys", "stocking stuffers", "fitness accessories", "car accessories"];
+const BUDGET = ["stocking stuffers", "kitchen gadgets", "phone accessories", "skincare", "home organization", "pet toys", "fitness accessories", "car accessories"];
+
+/* Simple line illustrations, one per category (24x24 grid). */
+const ICONS = {
+  Tech: '<rect x="7" y="2.5" width="10" height="19" rx="2"/><path d="M10.5 18.5h3"/><path d="M12.5 7.5l-2 3.5h3l-2 3.5"/>',
+  Beauty: '<path d="M9 21h6V12H9z"/><path d="M9.5 12V9l2.5-5 2.5 5v3"/><path d="M19 4l.6 1.4L21 6l-1.4.6L19 8l-.6-1.4L17 6l1.4-.6z"/>',
+  Home: '<path d="M3.5 11L12 4l8.5 7"/><path d="M5.5 9.5V20h13V9.5"/><path d="M10 20v-5h4v5"/>',
+  Kitchen: '<path d="M4 10h16v2a6 6 0 0 1-6 6h-4a6 6 0 0 1-6-6z"/><path d="M2 10h20"/><path d="M9 6c0-1 1-1 1-2M13 6c0-1 1-1 1-2"/>',
+  Fashion: '<path d="M8.5 3.5L4 6l1.5 4.5 2-1V20.5h9V9.5l2 1L20 6l-4.5-2.5"/><path d="M8.5 3.5a3.5 3.5 0 0 0 7 0"/>',
+  Food: '<rect x="4" y="6" width="16" height="12" rx="1.5"/><path d="M4 10h16M4 14h16M9.3 6v12M14.7 6v12"/>',
+  Fitness: '<path d="M10 2.5h4v2.5h-4z"/><path d="M9 5h6l1 3v12.5a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V8z"/><path d="M8 12h8"/>',
+  Pets: '<circle cx="7" cy="9" r="1.8"/><circle cx="11" cy="6" r="1.8"/><circle cx="15.5" cy="7" r="1.8"/><circle cx="18" cy="11" r="1.8"/><path d="M8 17c0-3 2-5 4.5-5S17 14 17 17c0 2-2 2.5-4.5 2.5S8 19 8 17z"/>',
+  Toys: '<path d="M10 3.5h4v2a2 2 0 1 1 0 4v.5h4v4h-.5a2 2 0 1 0 0 4h.5v2.5H6V10h4v-.5a2 2 0 1 1 0-4z"/>',
+  Travel: '<rect x="3.5" y="7.5" width="17" height="12" rx="2"/><path d="M9 7.5V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2.5"/><path d="M8 7.5v12M16 7.5v12"/>',
+  Gift: '<rect x="3.5" y="9" width="17" height="11.5" rx="1"/><path d="M2.5 9h19v3.5h-19zM12 9v11.5"/><path d="M12 9c-1.5-3-5-4.5-5-2s3 2 5 2zM12 9c1.5-3 5-4.5 5-2s-3 2-5 2z"/>'
+};
+function art(category) {
+  const wrap = document.createElement("div");
+  wrap.className = "art";
+  wrap.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true">${ICONS[category] || ICONS.Gift}</svg>`;
+  const tag = document.createElement("span");
+  tag.className = "cat"; tag.textContent = category;
+  wrap.appendChild(tag);
+  return wrap;
+}
 
 let data = { picks: [] }, active = "All";
 
@@ -160,11 +196,12 @@ function renderGrid() {
   const list = data.picks.filter(p => active === "All" || p.category === active);
   list.forEach(p => {
     const card = el("article", { class: "card" });
-    card.appendChild(el("span", { class: "cat" }, p.category));
-    card.appendChild(el("h3", {}, p.name));
-    card.appendChild(el("p", {}, p.why));
-    const a = el("a", { class: "btn", href: p.url || search(p.query || p.name), target: "_blank", rel: "sponsored noopener" }, "Check price on Amazon →");
-    card.appendChild(a);
+    card.appendChild(art(p.category));
+    const body = el("div", { class: "body" });
+    body.appendChild(el("h3", {}, p.name));
+    body.appendChild(el("p", {}, p.why));
+    body.appendChild(el("a", { class: "btn", href: p.url || search(p.query || p.name), target: "_blank", rel: "sponsored noopener" }, "Check price on Amazon →"));
+    card.appendChild(body);
     grid.appendChild(card);
   });
   document.getElementById("count").textContent = `${list.length} item${list.length === 1 ? "" : "s"}`;
@@ -182,9 +219,11 @@ function renderStatic() {
   });
 }
 function apply(d) {
+  if (!d || !Array.isArray(d.picks)) return;
   data = d;
   document.getElementById("updated").textContent = fmtDate(d.updated);
   document.getElementById("roundNote").textContent = d.round_note || "";
+  if (active !== "All" && !d.picks.some(p => p.category === active)) active = "All";
   renderRail(); renderGrid();
 }
 renderStatic();
