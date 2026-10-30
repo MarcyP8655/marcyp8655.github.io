@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-28",
-  "round_note": "Cozy-season comforts and early Black Friday markdowns, with the gift-ready tech, K-beauty and toys that keep selling.",
+  "updated": "2026-10-30",
+  "round_note": "Early Black Friday markdowns are rolling in: warm layers, a discounted security camera and advent calendars, plus the gifts that keep selling.",
   "picks": [
     {
       "name": "Fire TV Stick HD",
@@ -21,16 +21,16 @@
       "query": "Apple AirTag 2nd generation"
     },
     {
+      "name": "Blink Mini 2K+ Camera",
+      "category": "Tech",
+      "why": "A small indoor/outdoor camera with color night vision, deeply discounted in early Black Friday deals. Easy holiday gift for new homeowners.",
+      "query": "Blink Mini 2K+ camera"
+    },
+    {
       "name": "Medicube One Day Exosome Shot 2000",
       "category": "Beauty",
       "why": "A viral K-beauty serum from the brand behind the best-selling toner pads, and one of the deepest early Black Friday beauty deals right now.",
       "query": "Medicube One Day Exosome Shot 2000"
-    },
-    {
-      "name": "Medicube Toner Pads",
-      "category": "Beauty",
-      "why": "K-beauty toner pads that were among the best-selling skincare of October. A quick, no-mess way to prep skin.",
-      "query": "Medicube Toner Pads"
     },
     {
       "name": "LANEIGE Lip Glowy Balm",
@@ -45,10 +45,10 @@
       "query": "CeraVe Skin Renewing Night Cream"
     },
     {
-      "name": "Lillusory Lightweight Cardigan",
+      "name": "Hanes Ultimate Heavyweight Hoodie",
       "category": "Fashion",
-      "why": "A relaxed, oversized cardigan in lots of colors that editors keep recommending for fall layering. Marked down in early Black Friday deals.",
-      "query": "Lillusory lightweight oversized cardigan sweater"
+      "why": "Hanes' heaviest, warmest pullover hoodie, marked down by more than half in Amazon's early Black Friday deals.",
+      "query": "Hanes Ultimate Heavyweight Pullover Hoodie"
     },
     {
       "name": "Bedsure GentleSoft Fleece Throw Blanket",
@@ -75,10 +75,10 @@
       "query": "EverFoams women's fuzzy memory foam slippers"
     },
     {
-      "name": "Owala FreeSip 40 oz Water Bottle",
+      "name": "YETI 16 oz Travel Bottle",
       "category": "Fitness",
-      "why": "Insulated bottle you can sip through the straw or swig from the spout. One of the most-bought water bottles on Amazon.",
-      "query": "Owala FreeSip 40 oz stainless steel water bottle"
+      "why": "YETI's newer insulated travel bottle with a 360-degree lid, at its best Amazon discount since it launched this year.",
+      "query": "YETI 16 oz Travel Bottle"
     },
     {
       "name": "Bocce's Bakery Dog Advent Calendar",
@@ -93,10 +93,10 @@
       "query": "Educational Insights Kanoodle Fan Edition 20th Anniversary"
     },
     {
-      "name": "CATAN On The Road Card Game",
+      "name": "LEGO Star Wars Advent Calendar 2026",
       "category": "Toys",
-      "why": "A travel-friendly card version of the classic strategy game, and one of the most affordable picks on Amazon's 2026 Toys We Love list.",
-      "query": "CATAN On The Road card game"
+      "why": "A build-a-day Star Wars countdown to Christmas, and one of the best-priced LEGO advent calendars this season.",
+      "query": "LEGO Star Wars Advent Calendar 2026"
     }
   ]
 }
