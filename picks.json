@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-01",
-  "round_note": "November kicks off with early Black Friday prices on gift-ready tech, holiday lights and advent calendars, plus cozy staples that keep selling.",
+  "updated": "2026-11-03",
+  "round_note": "Stocking stuffers and hostess gifts are on sale: holiday candles, travel-ready accessories and cozy basics, plus the tech deals that keep moving.",
   "picks": [
     {
       "name": "Fire TV Stick HD",
@@ -39,16 +39,22 @@
       "query": "LANEIGE Lip Glowy Balm"
     },
     {
-      "name": "CeraVe Skin Renewing Night Cream",
-      "category": "Beauty",
-      "why": "Ceramide night cream that locks in moisture while you sleep. A dermatologist-favorite brand that's on sale this week.",
-      "query": "CeraVe Skin Renewing Night Cream"
-    },
-    {
       "name": "Hanes Ultimate Heavyweight Hoodie",
       "category": "Fashion",
       "why": "Hanes' heaviest, warmest pullover hoodie, marked down by more than half in Amazon's early Black Friday deals.",
       "query": "Hanes Ultimate Heavyweight Pullover Hoodie"
+    },
+    {
+      "name": "adidas Athletic Crew Socks (6 Pairs)",
+      "category": "Fashion",
+      "why": "Cushioned, moisture-wicking crew socks in a six-pack. A classic stocking stuffer that's discounted right now.",
+      "query": "adidas athletic cushioned crew socks 6 pairs"
+    },
+    {
+      "name": "Yankee Candle Balsam & Cedar",
+      "category": "Home",
+      "why": "A large holiday-scented candle that burns for up to 150 hours. One of Yankee's most popular winter scents and an easy hostess gift.",
+      "query": "Yankee Candle Balsam and Cedar large jar candle"
     },
     {
       "name": "Bedsure GentleSoft Fleece Throw Blanket",
@@ -69,28 +75,22 @@
       "query": "Tony's Chocolonely chocolate bar variety pack 6"
     },
     {
-      "name": "EverFoams Fuzzy Slippers",
-      "category": "Fashion",
-      "why": "Faux-fur slippers with memory foam and a non-slip sole. Cold-weather favorites that sell out by December.",
-      "query": "EverFoams women's fuzzy memory foam slippers"
-    },
-    {
       "name": "YETI 16 oz Travel Bottle",
       "category": "Fitness",
       "why": "YETI's newer insulated travel bottle with a 360-degree lid, at its best Amazon discount since it launched this year.",
       "query": "YETI 16 oz Travel Bottle"
     },
     {
+      "name": "BAGSMART Toiletry Bag",
+      "category": "Travel",
+      "why": "A hanging toiletry bag with separate wet and dry sections. A practical gift ahead of holiday travel, and on sale now.",
+      "query": "BAGSMART toiletry bag wet dry separation"
+    },
+    {
       "name": "Bocce's Bakery Dog Advent Calendar",
       "category": "Pets",
       "why": "Twelve days of all-natural dog treats. A fun way to include the dog in the holiday countdown.",
       "query": "Bocce's Bakery 12 day advent calendar for dogs"
-    },
-    {
-      "name": "Kanoodle 20th Anniversary Fan Edition",
-      "category": "Toys",
-      "why": "A pocket-size logic puzzle with hundreds of challenges. Named to Amazon's 2026 Toys We Love list.",
-      "query": "Educational Insights Kanoodle Fan Edition 20th Anniversary"
     },
     {
       "name": "LEGO Star Wars Advent Calendar 2026",
