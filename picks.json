@@ -1,18 +1,12 @@
 {
-  "updated": "2026-11-03",
-  "round_note": "Stocking stuffers and hostess gifts are on sale: holiday candles, travel-ready accessories and cozy basics, plus the tech deals that keep moving.",
+  "updated": "2026-11-05",
+  "round_note": "Gift-list season is here: game-night favorites, cozy candle upgrades and small self-care treats, plus the tech and advent calendars that keep selling.",
   "picks": [
     {
       "name": "Fire TV Stick HD",
       "category": "Tech",
       "why": "The cheapest way to make an older TV smart, and one of Amazon's most-gifted devices every holiday season.",
       "query": "Amazon Fire TV Stick HD"
-    },
-    {
-      "name": "Anker Nano Power Bank",
-      "category": "Tech",
-      "why": "Pocket-size charger with a built-in connector, so there's no cable to forget. A favorite stocking stuffer.",
-      "query": "Anker Nano Power Bank built-in connector"
     },
     {
       "name": "Apple AirTag (2nd Generation)",
@@ -27,10 +21,10 @@
       "query": "Blink Mini 2K+ camera"
     },
     {
-      "name": "Medicube One Day Exosome Shot 2000",
+      "name": "Kitsch Ice Roller",
       "category": "Beauty",
-      "why": "A viral K-beauty serum from the brand behind the best-selling toner pads, and one of the deepest early Black Friday beauty deals right now.",
-      "query": "Medicube One Day Exosome Shot 2000"
+      "why": "A chilled stainless steel face roller for puffy mornings. A small, giftable self-care pick on this month's gift lists.",
+      "query": "Kitsch ice roller face"
     },
     {
       "name": "LANEIGE Lip Glowy Balm",
@@ -57,10 +51,10 @@
       "query": "Yankee Candle Balsam and Cedar large jar candle"
     },
     {
-      "name": "Bedsure GentleSoft Fleece Throw Blanket",
+      "name": "Godonlif Candle Warmer Lamp",
       "category": "Home",
-      "why": "A soft, inexpensive fleece throw in lots of colors. A long-running Amazon best seller and an easy cozy gift as nights get colder.",
-      "query": "Bedsure GentleSoft fleece throw blanket 50x60"
+      "why": "Melts candles from above with a lamp instead of a flame, with a built-in timer. A cozy gift that pairs with any jar candle.",
+      "query": "Godonlif candle warmer lamp timer"
     },
     {
       "name": "Brightech Outdoor String Lights",
@@ -97,6 +91,18 @@
       "category": "Toys",
       "why": "A build-a-day Star Wars countdown to Christmas, and one of the best-priced LEGO advent calendars this season.",
       "query": "LEGO Star Wars Advent Calendar 2026"
+    },
+    {
+      "name": "Bananagrams",
+      "category": "Toys",
+      "why": "A fast crossword-style tile game in a zip-up banana pouch. A classic, inexpensive gift for game nights and travel.",
+      "query": "Bananagrams word game"
+    },
+    {
+      "name": "Murdle: Volume 1",
+      "category": "Books",
+      "why": "A best-selling book of murder-mystery logic puzzles that get harder as you go. A clever gift for puzzle lovers and white elephant swaps.",
+      "query": "Murdle Volume 1 G.T. Karber"
     }
   ]
 }
