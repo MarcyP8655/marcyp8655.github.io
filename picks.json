@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-05",
-  "round_note": "Gift-list season is here: game-night favorites, cozy candle upgrades and small self-care treats, plus the tech and advent calendars that keep selling.",
+  "updated": "2026-11-07",
+  "round_note": "Stocking stuffers take over: mini beauty sets, a cozy-latte frother, gift-box jewelry and plush toys, plus the advent calendars and tech that keep selling.",
   "picks": [
     {
       "name": "Fire TV Stick HD",
@@ -15,12 +15,6 @@
       "query": "Apple AirTag 2nd generation"
     },
     {
-      "name": "Blink Mini 2K+ Camera",
-      "category": "Tech",
-      "why": "A small indoor/outdoor camera with color night vision, deeply discounted in early Black Friday deals. Easy holiday gift for new homeowners.",
-      "query": "Blink Mini 2K+ camera"
-    },
-    {
       "name": "Kitsch Ice Roller",
       "category": "Beauty",
       "why": "A chilled stainless steel face roller for puffy mornings. A small, giftable self-care pick on this month's gift lists.",
@@ -33,10 +27,16 @@
       "query": "LANEIGE Lip Glowy Balm"
     },
     {
-      "name": "Hanes Ultimate Heavyweight Hoodie",
-      "category": "Fashion",
-      "why": "Hanes' heaviest, warmest pullover hoodie, marked down by more than half in Amazon's early Black Friday deals.",
-      "query": "Hanes Ultimate Heavyweight Pullover Hoodie"
+      "name": "Maybelline Lash Sensational Mascara Gift Set",
+      "category": "Beauty",
+      "why": "Three mini Lash Sensational mascaras in a holiday box. An inexpensive stocking stuffer from a drugstore best seller.",
+      "query": "Maybelline Lash Sensational mascara holiday gift set"
+    },
+    {
+      "name": "PAVOI 14K Gold Plated Love Knot Studs",
+      "category": "Jewelry",
+      "why": "Simple knotted stud earrings from one of Amazon's most popular jewelry brands. An affordable gift that looks more expensive.",
+      "query": "PAVOI 14K gold plated love knot stud earrings"
     },
     {
       "name": "adidas Athletic Crew Socks (6 Pairs)",
@@ -57,22 +57,16 @@
       "query": "Godonlif candle warmer lamp timer"
     },
     {
-      "name": "Brightech Outdoor String Lights",
-      "category": "Home",
-      "why": "Shatterproof, outdoor-rated string lights for porches and patios, marked down just in time for holiday decorating.",
-      "query": "Brightech outdoor string lights shatterproof"
+      "name": "Zulay Kitchen Handheld Milk Frother",
+      "category": "Kitchen",
+      "why": "A battery-powered wand for frothy lattes and hot chocolate at home. Comes in lots of colors and makes an easy stocking stuffer.",
+      "query": "Zulay Kitchen milk frother handheld"
     },
     {
       "name": "YETI 16 oz Travel Bottle",
       "category": "Fitness",
       "why": "YETI's newer insulated travel bottle with a 360-degree lid, at its best Amazon discount since it launched this year.",
       "query": "YETI 16 oz Travel Bottle"
-    },
-    {
-      "name": "BAGSMART Toiletry Bag",
-      "category": "Travel",
-      "why": "A hanging toiletry bag with separate wet and dry sections. A practical gift ahead of holiday travel, and on sale now.",
-      "query": "BAGSMART toiletry bag wet dry separation"
     },
     {
       "name": "Bocce's Bakery Dog Advent Calendar",
@@ -91,6 +85,12 @@
       "category": "Toys",
       "why": "A fast crossword-style tile game in a zip-up banana pouch. A classic, inexpensive gift for game nights and travel.",
       "query": "Bananagrams word game"
+    },
+    {
+      "name": "Squishmallows Disney Pajama Stitch",
+      "category": "Toys",
+      "why": "A 10-inch Stitch Squishmallow in pajamas. Plush toys like this are among the most-requested kids' gifts this season.",
+      "query": "Squishmallows Disney Pajama Stitch HugMees 10 inch"
     },
     {
       "name": "Murdle: Volume 1",
