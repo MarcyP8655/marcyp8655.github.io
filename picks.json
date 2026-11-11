@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-09",
-  "round_note": "Under-$25 gift season: cozy kitchen gadgets, mini beauty sets and game-night favorites, plus advent calendars before December 1.",
+  "updated": "2026-11-11",
+  "round_note": "Amazon's Black Friday sale is officially on: cozy throws and fleece at near-record lows, plus stocking stuffers, advent calendars and game-night gifts.",
   "picks": [
     {
       "name": "Fire TV Stick HD",
@@ -11,20 +11,8 @@
     {
       "name": "Apple AirTag (2nd Generation)",
       "category": "Tech",
-      "why": "Track keys, wallets and luggage from your iPhone, with better range than the first version. Still discounted in early Black Friday deals.",
+      "why": "Track keys, luggage or a pet from your iPhone. Amazon's Black Friday sale has it at one of its lowest single-unit prices yet.",
       "query": "Apple AirTag 2nd generation"
-    },
-    {
-      "name": "Kitsch Ice Roller",
-      "category": "Beauty",
-      "why": "A chilled stainless steel face roller for puffy mornings. A small, giftable self-care pick on this month's gift lists.",
-      "query": "Kitsch ice roller face"
-    },
-    {
-      "name": "LANEIGE Lip Glowy Balm",
-      "category": "Beauty",
-      "why": "Tinted, glossy lip balm that moisturizes without feeling sticky. A beauty best seller and an easy small gift.",
-      "query": "LANEIGE Lip Glowy Balm"
     },
     {
       "name": "Maybelline Lash Sensational Mascara Gift Set",
@@ -41,8 +29,14 @@
     {
       "name": "adidas Athletic Crew Socks (6 Pairs)",
       "category": "Fashion",
-      "why": "Cushioned, moisture-wicking crew socks in a six-pack. A classic stocking stuffer that's discounted right now.",
+      "why": "A six-pack of cushioned, moisture-wicking crew socks. A classic stocking stuffer, and marked down again for Black Friday.",
       "query": "adidas athletic cushioned crew socks 6 pairs"
+    },
+    {
+      "name": "Hanes EcoSmart Crewneck Sweatshirt",
+      "category": "Fashion",
+      "why": "A soft fleece pullover close to its lowest price ever. A cheap, reliable layer for colder weather.",
+      "query": "Hanes Men's EcoSmart Fleece Crewneck Sweatshirt"
     },
     {
       "name": "Yankee Candle Balsam & Cedar",
@@ -51,10 +45,10 @@
       "query": "Yankee Candle Balsam and Cedar large jar candle"
     },
     {
-      "name": "Godonlif Candle Warmer Lamp",
+      "name": "Eddie Bauer Plush Throw Blanket",
       "category": "Home",
-      "why": "Melts candles from above with a lamp instead of a flame, with a built-in timer. A cozy gift that pairs with any jar candle.",
-      "query": "Godonlif candle warmer lamp timer"
+      "why": "A large, two-sided plush throw that's more than half off right now. An easy, cozy holiday gift for almost anyone.",
+      "query": "Eddie Bauer ultra plush throw blanket"
     },
     {
       "name": "Zulay Kitchen Handheld Milk Frother",
@@ -67,6 +61,12 @@
       "category": "Kitchen",
       "why": "A palm-size waffle maker in lots of colors, and a perennial Amazon kitchen best seller. A fun, inexpensive gift that keeps showing up on holiday gift lists.",
       "query": "DASH Mini Waffle Maker"
+    },
+    {
+      "name": "YETI Rambler 16 oz Travel Bottle",
+      "category": "Fitness",
+      "why": "A leakproof insulated travel bottle that keeps coffee hot on the commute, discounted in Amazon's Black Friday sale.",
+      "query": "YETI Rambler 16 oz Travel Bottle"
     },
     {
       "name": "Bocce's Bakery Dog Advent Calendar",
