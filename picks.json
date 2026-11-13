@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-11",
-  "round_note": "Amazon's Black Friday sale is officially on: cozy throws and fleece at near-record lows, plus stocking stuffers, advent calendars and game-night gifts.",
+  "updated": "2026-11-13",
+  "round_note": "Amazon's Black Friday Week runs Nov 19-30, and early deals are already live: smart plugs, winter skincare and bedding at big discounts, plus stocking stuffers.",
   "picks": [
     {
       "name": "Fire TV Stick HD",
@@ -15,10 +15,22 @@
       "query": "Apple AirTag 2nd generation"
     },
     {
+      "name": "Kasa Smart Plug Mini (4-Pack)",
+      "category": "Tech",
+      "why": "Four small Wi-Fi plugs that put lamps and holiday lights on a schedule or voice control. One of this week's most popular smart-home markdowns.",
+      "query": "Kasa Smart Plug Mini 4 pack"
+    },
+    {
       "name": "Maybelline Lash Sensational Mascara Gift Set",
       "category": "Beauty",
       "why": "Three mini Lash Sensational mascaras in a holiday box. An inexpensive stocking stuffer from a drugstore best seller.",
       "query": "Maybelline Lash Sensational mascara holiday gift set"
+    },
+    {
+      "name": "La Roche-Posay Cicaplast Balm B5",
+      "category": "Beauty",
+      "why": "A soothing, multi-purpose balm for dry, chapped winter skin. A dermatologist favorite that's on sale in Amazon's early Black Friday deals.",
+      "query": "La Roche-Posay Cicaplast Balm B5"
     },
     {
       "name": "PAVOI 14K Gold Plated Love Knot Studs",
@@ -39,22 +51,16 @@
       "query": "Hanes Men's EcoSmart Fleece Crewneck Sweatshirt"
     },
     {
-      "name": "Yankee Candle Balsam & Cedar",
-      "category": "Home",
-      "why": "A large holiday-scented candle that burns for up to 150 hours. One of Yankee's most popular winter scents and an easy hostess gift.",
-      "query": "Yankee Candle Balsam and Cedar large jar candle"
-    },
-    {
       "name": "Eddie Bauer Plush Throw Blanket",
       "category": "Home",
       "why": "A large, two-sided plush throw that's more than half off right now. An easy, cozy holiday gift for almost anyone.",
       "query": "Eddie Bauer ultra plush throw blanket"
     },
     {
-      "name": "Zulay Kitchen Handheld Milk Frother",
-      "category": "Kitchen",
-      "why": "A battery-powered wand for frothy lattes and hot chocolate at home. Comes in lots of colors and makes an easy stocking stuffer.",
-      "query": "Zulay Kitchen milk frother handheld"
+      "name": "Utopia Bedding Microfiber Sheet Set",
+      "category": "Home",
+      "why": "A soft, budget-friendly sheet set in lots of colors, and one of the deepest percentage discounts in Amazon's early Black Friday deals.",
+      "query": "Utopia Bedding queen sheet set microfiber"
     },
     {
       "name": "DASH Mini Waffle Maker",
@@ -79,12 +85,6 @@
       "category": "Toys",
       "why": "A build-a-day Star Wars countdown to Christmas, and one of the best-priced LEGO advent calendars this season.",
       "query": "LEGO Star Wars Advent Calendar 2026"
-    },
-    {
-      "name": "Bananagrams",
-      "category": "Toys",
-      "why": "A fast crossword-style tile game in a zip-up banana pouch. A classic, inexpensive gift for game nights and travel.",
-      "query": "Bananagrams word game"
     },
     {
       "name": "Squishmallows Disney Pajama Stitch",
