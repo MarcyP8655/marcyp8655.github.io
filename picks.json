@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-13",
-  "round_note": "Amazon's Black Friday Week runs Nov 19-30, and early deals are already live: smart plugs, winter skincare and bedding at big discounts, plus stocking stuffers.",
+  "updated": "2026-11-15",
+  "round_note": "Black Friday Week starts Nov 19, and the early markdowns keep coming: cozy loungewear, Thanksgiving kitchen basics and stocking-stuffer tech at their lowest prices.",
   "picks": [
     {
       "name": "Fire TV Stick HD",
@@ -21,22 +21,10 @@
       "query": "Kasa Smart Plug Mini 4 pack"
     },
     {
-      "name": "Maybelline Lash Sensational Mascara Gift Set",
-      "category": "Beauty",
-      "why": "Three mini Lash Sensational mascaras in a holiday box. An inexpensive stocking stuffer from a drugstore best seller.",
-      "query": "Maybelline Lash Sensational mascara holiday gift set"
-    },
-    {
       "name": "La Roche-Posay Cicaplast Balm B5",
       "category": "Beauty",
       "why": "A soothing, multi-purpose balm for dry, chapped winter skin. A dermatologist favorite that's on sale in Amazon's early Black Friday deals.",
       "query": "La Roche-Posay Cicaplast Balm B5"
-    },
-    {
-      "name": "PAVOI 14K Gold Plated Love Knot Studs",
-      "category": "Jewelry",
-      "why": "Simple knotted stud earrings from one of Amazon's most popular jewelry brands. An affordable gift that looks more expensive.",
-      "query": "PAVOI 14K gold plated love knot stud earrings"
     },
     {
       "name": "adidas Athletic Crew Socks (6 Pairs)",
@@ -45,10 +33,22 @@
       "query": "adidas athletic cushioned crew socks 6 pairs"
     },
     {
-      "name": "Hanes EcoSmart Crewneck Sweatshirt",
+      "name": "Hanes EcoSmart Pullover Hoodie",
       "category": "Fashion",
-      "why": "A soft fleece pullover close to its lowest price ever. A cheap, reliable layer for colder weather.",
-      "query": "Hanes Men's EcoSmart Fleece Crewneck Sweatshirt"
+      "why": "A soft fleece hoodie at more than half off, within a couple of dollars of its lowest price. A cheap, dependable winter layer.",
+      "query": "Hanes Men's EcoSmart Fleece Pullover Hoodie"
+    },
+    {
+      "name": "Lillusory Lightweight Cardigan",
+      "category": "Fashion",
+      "why": "An easy, open-front cardigan that's back on sale for Black Friday. Comfortable for lounging and dressy enough for holiday dinners.",
+      "query": "Lillusory lightweight oversized cardigan sweater"
+    },
+    {
+      "name": "Automet 2-Piece Lounge Set",
+      "category": "Fashion",
+      "why": "A matching sweatshirt-and-pants lounge set that's a social-media favorite, and marked down for early Black Friday.",
+      "query": "AUTOMET women's 2 piece lounge set"
     },
     {
       "name": "Eddie Bauer Plush Throw Blanket",
@@ -67,6 +67,12 @@
       "category": "Kitchen",
       "why": "A palm-size waffle maker in lots of colors, and a perennial Amazon kitchen best seller. A fun, inexpensive gift that keeps showing up on holiday gift lists.",
       "query": "DASH Mini Waffle Maker"
+    },
+    {
+      "name": "KitchenAid Silicone Oven Mitts (2-Pack)",
+      "category": "Kitchen",
+      "why": "Ribbed silicone mitts with a soft lining, now about 70% off. Great timing for Thanksgiving and holiday baking.",
+      "query": "KitchenAid Ribbed Soft Silicone Oven Mitt 2 pack"
     },
     {
       "name": "YETI Rambler 16 oz Travel Bottle",
@@ -91,12 +97,6 @@
       "category": "Toys",
       "why": "A 10-inch Stitch Squishmallow in pajamas. Plush toys like this are among the most-requested kids' gifts this season.",
       "query": "Squishmallows Disney Pajama Stitch HugMees 10 inch"
-    },
-    {
-      "name": "Murdle: Volume 1",
-      "category": "Books",
-      "why": "A best-selling book of murder-mystery logic puzzles that get harder as you go. A clever gift for puzzle lovers and white elephant swaps.",
-      "query": "Murdle Volume 1 G.T. Karber"
     }
   ]
 }
