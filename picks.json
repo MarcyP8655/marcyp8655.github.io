@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-15",
-  "round_note": "Black Friday Week starts Nov 19, and the early markdowns keep coming: cozy loungewear, Thanksgiving kitchen basics and stocking-stuffer tech at their lowest prices.",
+  "updated": "2026-11-17",
+  "round_note": "Black Friday Week starts Nov 19: holiday chocolate, wrapping paper and toys join the warm layers and gift-ready tech already marked down.",
   "picks": [
     {
       "name": "Fire TV Stick HD",
@@ -27,12 +27,6 @@
       "query": "La Roche-Posay Cicaplast Balm B5"
     },
     {
-      "name": "adidas Athletic Crew Socks (6 Pairs)",
-      "category": "Fashion",
-      "why": "A six-pack of cushioned, moisture-wicking crew socks. A classic stocking stuffer, and marked down again for Black Friday.",
-      "query": "adidas athletic cushioned crew socks 6 pairs"
-    },
-    {
       "name": "Hanes EcoSmart Pullover Hoodie",
       "category": "Fashion",
       "why": "A soft fleece hoodie at more than half off, within a couple of dollars of its lowest price. A cheap, dependable winter layer.",
@@ -57,18 +51,6 @@
       "query": "Eddie Bauer ultra plush throw blanket"
     },
     {
-      "name": "Utopia Bedding Microfiber Sheet Set",
-      "category": "Home",
-      "why": "A soft, budget-friendly sheet set in lots of colors, and one of the deepest percentage discounts in Amazon's early Black Friday deals.",
-      "query": "Utopia Bedding queen sheet set microfiber"
-    },
-    {
-      "name": "DASH Mini Waffle Maker",
-      "category": "Kitchen",
-      "why": "A palm-size waffle maker in lots of colors, and a perennial Amazon kitchen best seller. A fun, inexpensive gift that keeps showing up on holiday gift lists.",
-      "query": "DASH Mini Waffle Maker"
-    },
-    {
       "name": "KitchenAid Silicone Oven Mitts (2-Pack)",
       "category": "Kitchen",
       "why": "Ribbed silicone mitts with a soft lining, now about 70% off. Great timing for Thanksgiving and holiday baking.",
@@ -79,6 +61,18 @@
       "category": "Fitness",
       "why": "A leakproof insulated travel bottle that keeps coffee hot on the commute, discounted in Amazon's Black Friday sale.",
       "query": "YETI Rambler 16 oz Travel Bottle"
+    },
+    {
+      "name": "Ferrero Rocher Holiday Gift Box",
+      "category": "Food",
+      "why": "Classic hazelnut chocolates in a gift-ready box. Holiday chocolate is up to 45% off in Amazon's Black Friday lineup.",
+      "query": "Ferrero Rocher holiday gift box 24 count"
+    },
+    {
+      "name": "Hallmark Holiday Wrapping Paper Set",
+      "category": "Holiday",
+      "why": "Reversible holiday wrapping paper rolls with cut lines on the back. Hallmark wrap and cards are part of Amazon's Black Friday deals.",
+      "query": "Hallmark reversible Christmas wrapping paper"
     },
     {
       "name": "Bocce's Bakery Dog Advent Calendar",
@@ -97,7 +91,13 @@
       "category": "Toys",
       "why": "A 10-inch Stitch Squishmallow in pajamas. Plush toys like this are among the most-requested kids' gifts this season.",
       "query": "Squishmallows Disney Pajama Stitch HugMees 10 inch"
+    },
+    {
+      "name": "Play-Doh Modeling Compound 10-Pack",
+      "category": "Toys",
+      "why": "Ten colorful cans of Play-Doh for kids 2 and up. Play-Doh is among the toy brands Amazon put on sale for Black Friday Week.",
+      "query": "Play-Doh Modeling Compound 10 pack"
     }
   ],
-  "look": "holiday"
+  "look": "blackfriday"
 }
