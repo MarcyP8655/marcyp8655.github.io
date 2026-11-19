@@ -1,17 +1,17 @@
 {
-  "updated": "2026-11-17",
-  "round_note": "Black Friday Week starts Nov 19: holiday chocolate, wrapping paper and toys join the warm layers and gift-ready tech already marked down.",
+  "updated": "2026-11-19",
+  "round_note": "Amazon's Black Friday Week is live through Nov 30: the newest Fire TV Stick and AirTag are at record lows, alongside cozy layers, toys and holiday treats.",
   "picks": [
     {
-      "name": "Fire TV Stick HD",
+      "name": "Amazon Fire TV Stick 4K (New)",
       "category": "Tech",
-      "why": "The cheapest way to make an older TV smart, and one of Amazon's most-gifted devices every holiday season.",
-      "query": "Amazon Fire TV Stick HD"
+      "why": "Amazon's brand-new 4K streaming stick at less than half price for Black Friday Week. A quick TV upgrade and an easy gift.",
+      "query": "Amazon Fire TV Stick 4K newest model"
     },
     {
       "name": "Apple AirTag (2nd Generation)",
       "category": "Tech",
-      "why": "Track keys, luggage or a pet from your iPhone. Amazon's Black Friday sale has it at one of its lowest single-unit prices yet.",
+      "why": "Track keys, luggage or a pet from your iPhone. Amazon's Black Friday sale matches its all-time low for a single AirTag.",
       "query": "Apple AirTag 2nd generation"
     },
     {
@@ -99,5 +99,5 @@
       "query": "Play-Doh Modeling Compound 10 pack"
     }
   ],
-  "look": "blackfriday"
+  "look": "winter"
 }
