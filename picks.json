@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19",
-  "round_note": "Amazon's Black Friday Week is live through Nov 30: the newest Fire TV Stick and AirTag are at record lows, alongside cozy layers, toys and holiday treats.",
+  "updated": "2026-11-21",
+  "round_note": "Black Friday Week weekend: a cast-iron skillet, the viral Stanley tumbler and a Wi-Fi fix join the AirTag and Fire TV Stick at record lows.",
   "picks": [
     {
       "name": "Amazon Fire TV Stick 4K (New)",
@@ -21,6 +21,12 @@
       "query": "Kasa Smart Plug Mini 4 pack"
     },
     {
+      "name": "TP-Link Wi-Fi Extender with Ethernet Port",
+      "category": "Tech",
+      "why": "A plug-in extender that fixes Wi-Fi dead spots in far rooms. More than half off in Amazon's Black Friday sale.",
+      "query": "TP-Link WiFi extender with ethernet port RE315"
+    },
+    {
       "name": "La Roche-Posay Cicaplast Balm B5",
       "category": "Beauty",
       "why": "A soothing, multi-purpose balm for dry, chapped winter skin. A dermatologist favorite that's on sale in Amazon's early Black Friday deals.",
@@ -39,22 +45,16 @@
       "query": "Lillusory lightweight oversized cardigan sweater"
     },
     {
-      "name": "Automet 2-Piece Lounge Set",
-      "category": "Fashion",
-      "why": "A matching sweatshirt-and-pants lounge set that's a social-media favorite, and marked down for early Black Friday.",
-      "query": "AUTOMET women's 2 piece lounge set"
-    },
-    {
       "name": "Eddie Bauer Plush Throw Blanket",
       "category": "Home",
       "why": "A large, two-sided plush throw that's more than half off right now. An easy, cozy holiday gift for almost anyone.",
       "query": "Eddie Bauer ultra plush throw blanket"
     },
     {
-      "name": "KitchenAid Silicone Oven Mitts (2-Pack)",
+      "name": "Lodge 10.25-Inch Cast-Iron Skillet",
       "category": "Kitchen",
-      "why": "Ribbed silicone mitts with a soft lining, now about 70% off. Great timing for Thanksgiving and holiday baking.",
-      "query": "KitchenAid Ribbed Soft Silicone Oven Mitt 2 pack"
+      "why": "A pre-seasoned skillet that handles everything from pancakes to steak and lasts for decades. Discounted for the first time in months.",
+      "query": "Lodge 10.25 inch cast iron skillet"
     },
     {
       "name": "YETI Rambler 16 oz Travel Bottle",
@@ -63,16 +63,16 @@
       "query": "YETI Rambler 16 oz Travel Bottle"
     },
     {
+      "name": "Stanley Quencher H2.0 Tumbler",
+      "category": "Fitness",
+      "why": "The viral insulated tumbler with a handle and straw, half off list price in early Black Friday deals.",
+      "query": "Stanley Quencher H2.0 FlowState tumbler 40 oz"
+    },
+    {
       "name": "Ferrero Rocher Holiday Gift Box",
       "category": "Food",
       "why": "Classic hazelnut chocolates in a gift-ready box. Holiday chocolate is up to 45% off in Amazon's Black Friday lineup.",
       "query": "Ferrero Rocher holiday gift box 24 count"
-    },
-    {
-      "name": "Hallmark Holiday Wrapping Paper Set",
-      "category": "Holiday",
-      "why": "Reversible holiday wrapping paper rolls with cut lines on the back. Hallmark wrap and cards are part of Amazon's Black Friday deals.",
-      "query": "Hallmark reversible Christmas wrapping paper"
     },
     {
       "name": "Bocce's Bakery Dog Advent Calendar",
@@ -99,5 +99,5 @@
       "query": "Play-Doh Modeling Compound 10 pack"
     }
   ],
-  "look": "winter"
+  "look": "peppermint"
 }
